@@ -1,0 +1,430 @@
+body{
+	box-sizing: border-box;
+	background: #ffffff;
+}
+
+/*Clases IHC*/
+
+.test{
+	position: fixed;
+}
+.logoInicio{
+	color: #EEB902;
+	font-family: 'Rubik Mono One';
+}
+
+.textData{
+	color: #EEB902;
+	font-family: 'Rubik Mono One';
+}
+
+.headTitle{
+	color: #373F51;
+}
+
+.fontCalen{
+	font-size: 100px;
+	margin-top: 300px;
+}
+
+.fontCalen:hover{
+	color: #373F51;
+}
+
+
+.containerMenu{
+	background-color: #ffffff;
+	padding: 50px 50px;
+}
+
+.containerData2{
+	background-color: #373F51;
+	padding: 20px;
+}
+
+.containerData1{
+	background-color: #373F51;
+	padding: 20px;
+}
+
+.containerSorteo{
+	background-color: #fff;
+	padding: 130px;
+}
+
+.containerOpciones{
+	background-color: #ffffff;
+}
+
+.containerFooter{
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+.containerMenuBar{
+	background-color: #373F51;
+	padding: 15px;
+}
+
+.containerRepre{
+	background-color: #000;
+	padding: 30px;
+}
+
+.containerParticipar{
+	background-color: #373F51;
+	padding: 50px;
+}
+
+.containerCrear{
+	background-color: #373F51;
+	padding: 50px;
+}
+
+.list-group-item.listFooter {
+    border: none;    
+}
+
+.menuBarOp{
+	color: #EEB902;
+	font-size: 20px;
+	font-family: 'Oswald';
+}
+
+.espEtiquetas{
+	margin-bottom: 50px;
+}
+
+.menuBarOp:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menuFooter{
+	color: #000;
+	font-size: 20px;
+	font-family: 'Oswald';
+}
+
+.containerEventos{
+	padding: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+.menuFooter:hover{
+	color: #EEB902;
+	text-decoration: none;
+}
+
+.hup{
+	margin-bottom: 25px;
+}
+
+.evento{
+	background-color: #fff;
+	opacity: 0.8;
+	padding: 5px;
+	visibility: hidden;
+}
+
+.e1{
+	visibility: hidden;
+}
+.e2{
+	visibility: hidden;
+}
+.e3{
+	visibility: hidden;
+}
+.e4{
+	visibility: hidden;
+}
+.e5{
+	visibility: hidden;
+}
+
+.eve1{
+	visibility: hidden;
+}
+.eve2{
+	visibility: hidden;
+}
+.eve3{
+	visibility: hidden;
+}
+.eve4{
+	visibility: hidden;
+}
+.eve5{
+	visibility: hidden;
+}
+
+.evento:hover{
+	background-color: #fff;
+	opacity: 1;
+	padding: 5px;
+}
+
+.eventList{
+	margin-bottom: 50px;
+}
+
+.menuBarOp.act{
+	border-bottom:2px solid white;
+	padding-bottom: 2px;
+	border-radius: 1px;
+}
+
+.selectOp:hover{
+	background-color:#EEB902;
+}
+
+.key{
+	visibility: hidden;
+}
+
+.key1{
+	visibility: hidden;
+}
+
+.key2{
+	visibility: hidden;
+}
+
+.key3{
+	visibility: hidden;
+}
+
+.key4{
+	visibility: hidden;
+}
+
+.key5{
+	visibility: hidden;
+}
+
+.key6{
+	visibility: hidden;
+}
+
+.key7{
+	display: none;
+}
+
+.key8{
+	display: none;
+}
+
+.key9{
+	visibility: hidden;
+}
+
+.key10{
+	visibility: hidden;
+}
+
+
+.sep{
+	border-top: 15px solid #EEB902;
+}
+
+.butredes.insta{
+	padding: 30px 40px;
+	border:2px solid white;
+	background: #ffffff;
+	color: black;
+	transition: all 300ms ease;
+}
+
+.butredes.insta:hover{
+	border:2px solid transparent;
+	background: #cd486b;
+	color: white;
+	border-radius: 15px;
+}
+
+.butredes.twitter{
+	padding: 30px 40px;
+	border:2px solid white;
+	background: #ffffff;
+	color: black;
+	transition: all 300ms ease;
+}
+
+.butredes.twitter:hover{
+	border:2px solid transparent;
+	background: #1dcaff;
+	color: white;
+	border-radius: 15px;
+}
+
+/*Fin*/
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px ;
+    border-top: 4px solid #F76322;
+}
+
+h3, p{
+	font-family: 'Oswald';
+}
+
+p{
+	font-size: 1.2em;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../IMG/carga2.gif') 50% 50% no-repeat rgb(21,21,21);
+    opacity: 1;
+    /*
+	Carga1 rgb(0,0,0)
+	Carga2 rgb(21,21,21)
+    */
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 5px ;
+    outline-offset: -2px;
+}
+
+/* Agrupaciones */
+.categoria h2{
+	font-size: 20px;
+	color: #EEB902;
+	font-family: 'Graduate', cursive;
+}
+
+.row hr {
+	background: #373f51;
+	border: none;
+	height: 5px
+
+}
+
+.contenedor_tarjeta a {
+	display : inline-block;
+	margin: 8px;
+}
+
+.contenedor_tarjeta:hover figure img{
+	filter:blur(15px);
+}
+
+.contenedor_tarjeta:hover figure{
+	-webkit-transform:perspective(600px) rotateY(180deg);
+	-ms-transform:perspective(600px) rotateY(180deg);
+	-o-transform:perspective(600px) rotateY(180deg);
+	transform:perspective(600px) rotateY(180deg);
+	-webkit-box-shadow: 0px 6px 62px -6px rgba(168,166,168,1);
+	-moz-box-shadow: 0px 6px 62px -6px rgba(168,166,168,1);
+	box-shadow: 0px 6px 62px -6px rgba(168,166,168,1);
+}
+
+figure {
+	width: 300 px;
+	height : 300 px;
+	margin:0;
+	position:relative;
+	transition: all ease .5s;
+	transform-style: preserve-3d;
+	transform: perspective (600px) rotateY(0deg);
+}
+
+figure .frontal, figure .trasera {
+	width : 100%;
+	height: 100%;
+	border-radius:5px;
+	transition: all ease .5s;
+}
+
+figure .frontal {
+	display:block;
+	/*backface-visibility:hidden;*/
+}
+
+figure .trasera {
+	position: absolute;
+	top:40px;
+	padding:5px;
+	color: #000;
+	transform: perspective(600px) rotateY(180deg);
+	backface-visibility:hidden;
+	overflow:auto;
+	text-align: center;
+}
+
+/*.contenedor_tarjeta:nth-child(1) figure. traser {}*/
+figure .trasera h2 {
+	font-size: 18px;
+	font-family: 'Staatliches';
+}
+
+
+figure .trasera2 {
+	position: absolute;
+	top:-10px;
+	padding:5px;
+	color: #000;
+	transform: perspective(600px) rotateY(180deg);
+	backface-visibility:hidden;
+	overflow:auto;
+	text-align: center;
+}
+figure .trasera2 h2 {
+	font-size: 18px;
+	font-family: 'Staatliches';
+}
+figure .trasera2 hr {
+	background: #000;
+	border: none;
+	height: 2px
+
+}
+
+.modelos{
+	margin-top:20px;
+	margin-bottom: 50px;
+	padding: 40px;
+}
+
+.representacion{
+	padding: 40px;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+
+.categoria{
+	margin-top: 30px;
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
